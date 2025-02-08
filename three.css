@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    border: none;
+}
+
+body{
+    background: linear-gradient(135deg, #9d49b6, #5d81d9);
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.note-container{
+    padding-left: 7%;
+    padding-top: 4%;
+}
+
+.note-container h2{
+    font-size: 3.6rem;
+    font-weight: 800;
+    color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.note-container h2 img{
+    width: 70px;
+    height: 70px;
+}
+
+.row{
+    display: flex;
+    color: white;
+    font-size: 1.7rem;
+    background: #7b0df7;
+    padding: 8px 12px;
+    border-radius: 27px;
+    width: 230px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 2rem;
+}
+
+.row:hover{
+    transform: scale(1.03);
+}
+
+.row:active{
+    opacity: 0;
+}
+
+.row img{
+    width: 30px;
+}
+
+.input-box{
+    margin-bottom: 25px;
+}
+
+
+
+.input-box p {
+    width: 450px;
+    height: 140px;
+    border: none;
+    outline: none;
+    padding: 14px 15px;
+    font-weight: 600;
+
+        display: flex;
+        font-size: 1.1rem;
+        color: #333;
+        position: relative;
+        background: white;
+        width: 500px;
+        height: 150px;
+        border-radius: 7px;
+        margin-bottom: 25px;
+    }
+
+
+.input-box img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    bottom: 15px;
+    right: 15px;
+}
+
+.input-box img:hover{
+    transform: scale(1.05);
+}
